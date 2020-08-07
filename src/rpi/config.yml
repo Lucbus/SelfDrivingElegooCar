@@ -1,0 +1,16 @@
+#driving parameters
+speed: 0.35 # between 0 and 1
+drivingTime: 0.15 # in seconds
+drivingTimeTurning: 0.1 # in seconds
+
+# distances for Ultrasonic Sensor (in cm)
+distanceStop: 20
+distanceSlow: 60
+
+#camera resolution:
+resolutionX: 640 
+resolutionY: 480 
+fps: 45
+
+# connection
+ip: '192.168.2.2'

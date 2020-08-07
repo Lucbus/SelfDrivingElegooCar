@@ -1,0 +1,7 @@
+# paths
+data_path: 'data/raw_data'
+checkpoint_path: 'checkpoints'
+
+# network config
+ip: '0.0.0.0'
+port: 8000
