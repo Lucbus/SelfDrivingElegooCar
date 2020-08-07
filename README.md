@@ -1,6 +1,6 @@
 # Elegoo Self driving car 
 
-Elegoo car modification for autonomous driving. More information here: <https://youtu.be/>
+Elegoo car modification for autonomous driving. More information here: <https://youtu.be/1-7RTr_nGgs>
 
 ## Introduction
 
