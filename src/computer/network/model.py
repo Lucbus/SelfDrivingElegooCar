@@ -1,4 +1,5 @@
-"""Model of the network. 
+"""
+Model of the network. 
 
 Raises:
     NotImplementedError: Raised if the forward function  is not implemented.

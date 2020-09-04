@@ -2,7 +2,7 @@
 Extends the network model with a forward function to infere single images
 """
 import torch
-from model import Net
+from computer.network.model import Net
 from variables import Command
 
 class InferenceNet(Net):

@@ -1,4 +1,5 @@
-"""Script to measure distance to an obstacle. The script is based on
+"""
+Script to measure distance to an obstacle. The script is based on
 https://tutorials-raspberrypi.de/entfernung-messen-mit-ultraschallsensor-hc-sr04/
 """    
 import RPi.GPIO as GPIO

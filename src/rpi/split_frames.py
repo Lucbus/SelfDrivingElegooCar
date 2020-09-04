@@ -26,7 +26,7 @@ class SplitFrames(object):
         self.socket = socket
 
     def write(self, buf: bytes):
-        """send image and receive response
+        """Send image and receive response
 
         Args:
             buf (bytes): buffer

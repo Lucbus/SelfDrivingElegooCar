@@ -1,5 +1,5 @@
 """
-small script to view the recorded data
+Script to view the recorded data
 """
 import os
 import random

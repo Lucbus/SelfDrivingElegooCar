@@ -1,4 +1,5 @@
-"""Performs the training
+"""
+Performs the training
 """
 import argparse
 import torch
@@ -32,7 +33,7 @@ class Train():
         self.device = torch.device("cuda:0" if use_cuda else "cpu")
 
     def train_network(self, batch_size: int, learning_rate: float, epochs: int, checkpoint: Path = None) -> None:
-        """Initializes the training and trains the network.
+        """Starts the training
 
         Args:
             batch_size (int): Batch size used for training
@@ -115,7 +116,7 @@ class Train():
             # validation
             real_values, predictions, validation_loss, validation_accuracy = self._evaluate(dataloaders["val"], NET, criterion)
 
-            scheduler.step(validation_loss)
+            scheduler.step()
 
             writer.add_scalar('Loss/val', validation_loss, epoch)
             writer.add_scalar('Accuracy/val', validation_accuracy, epoch)

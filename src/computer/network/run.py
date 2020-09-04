@@ -1,4 +1,5 @@
-"""Training and data management scripts. Run this file and use the corresponding flags.
+"""
+Training and data management scripts. Run this file and use the corresponding flags.
 """
 import argparse
 from pathlib import Path

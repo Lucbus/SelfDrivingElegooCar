@@ -154,6 +154,6 @@ if __name__ == '__main__':
     input_dir = project_path / 'data/raw_data' 
     output_dir = project_path / 'data/sorted_data'
 
-    manni = ManageData(input_dir, output_dir)
+    manage_data = ManageData(input_dir, output_dir)
 
-    manni.sort_dataset()
+    manage_data.sort_dataset()
